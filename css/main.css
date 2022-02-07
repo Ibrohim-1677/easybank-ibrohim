@@ -419,7 +419,6 @@ body {
   display: flex;
   list-style: none;
   padding: 0;
-  margin: 0;
 }
 
 .header__item {
@@ -428,7 +427,7 @@ body {
   margin: 30px;
 }
 
-.header__item .header__ikon {
+.header__ikon {
   text-decoration: none;
   font-size: 14px;
   line-height: 16px;
@@ -436,11 +435,11 @@ body {
   color: #9597A5;
 }
 
-.header__item .header__ikon:hover {
+.header__ikon:hover {
   color: #2D314D;
 }
 
-.header__item .header__ikon:hover::before {
+.header__ikon:hover::before {
   content: "";
   width: 51px;
   height: 4px;
@@ -450,15 +449,15 @@ body {
   left: -5px;
 }
 
-.header__item .ikon {
+.ikon {
   color: #9597A5;
 }
 
-.header__item .ikon:hover {
+.ikon:hover {
   color: #2D314D;
 }
 
-.header__item .ikon:hover::before {
+.ikon:hover::before {
   content: "";
   width: 62px;
   height: 4px;
@@ -468,8 +467,12 @@ body {
   left: -5px;
 }
 
+.header__tip {
+  margin-left: auto;
+}
+
 .header_logo {
-  margin-right: auto;
+  margin-right: 257px;
 }
 
 .header__link {

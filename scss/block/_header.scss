@@ -13,13 +13,12 @@
     display: flex;
     list-style: none;
     padding: 0;
-    margin: 0;
 }
 .header__item{
     position: relative;
     padding: 18px 0px;
     margin: 30px;
-    
+}
 .header__ikon{
     text-decoration: none;
     font-size: 14px;
@@ -55,10 +54,13 @@
         }
       }
 }
+.header__tip{
+    margin-left: auto;
 }
 
+
 .header_logo{
-    margin-right: auto;
+    margin-right: 257px;
 }
 
 .header__link{
