@@ -1,0 +1,113 @@
+.footer{
+    background-color: #2D314D;
+    color: #fff;
+}
+.footer__images{
+    padding-top: 48px;
+}
+.footer__max{
+    display: flex;
+}
+.footer__min{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin-left: -15px;
+    margin-top: 57px;
+    padding-bottom: 30px;
+}
+.footer__img{
+    margin-left: 13px;
+}
+.a{
+    color: #fff;
+       &:hover{
+           color: #30C88F;
+       }
+}
+.footer__list{
+    display: flex;
+    align-items: center;
+}
+.footer__ul{
+    list-style: none;
+    margin-left: 100px;
+}
+.footer__text{
+    margin-top: 20px;
+}
+.footer__text:nth-child(1){
+    margin-top: -5px;
+}
+.footer__title{
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    line-height: 26px;
+    &:hover{
+        color: #30C88F;
+    }
+}
+
+.footer__ip{
+    display: block;
+    margin-top: 32px;
+}
+.footer__link{
+    text-decoration: none;
+    color: #fff;
+     &:hover{
+    background-image: url(../images/rang.png);
+    background-repeat: no-repeat;
+    padding: 13px 36px 13px 30px;
+    color: #fff;
+    margin-left: -30px;
+    text-decoration: none;
+}
+ 
+}
+.footer__span{
+    margin-left: 350px;
+    margin-top: 90px;
+    background-image: url(../images/link-bg.png);
+    background-repeat: no-repeat;
+    padding: 13px 36px 13px 30px;
+    color: #fff;
+    text-decoration: none;
+}
+.footer__lest{
+    margin-top: 50px;
+    margin-bottom: 59px;
+}
+.footer__ip{
+    margin-left: 290px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 26px;
+    opacity: 0.5;
+}
+@media only screen and (min-width:320px) and (max-width:425px){
+    .footer__max{
+       display: block;
+    }
+    .footer__images{
+        margin-left: 120px;
+    }
+    .footer__list{
+        text-align: center;
+        display: block;
+        margin-left: -130px;
+    }
+    .footer__min{
+        margin-left: 105px;
+    }
+    .footer__span{
+        margin-left: 115px;
+    }
+    .footer__ip{
+        margin-left: 80px;
+        margin-top: -25px;
+        padding-bottom: 40px;
+    }
+}
